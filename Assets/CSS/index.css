@@ -1,0 +1,25 @@
+body{
+    background-color: burlywood;
+}
+.tips_box{
+    box-sizing: border-box;
+    border-style: ridge;
+    border-radius: 10px;
+    width: 1000px;
+    margin-left: 20%;
+    box-shadow: lightgray;
+    background-color: white;
+}
+.start-button{
+    text-align: center;
+    font-size: xx-large;
+    color:blueviolet;
+    padding:20px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tips_box .tips_title{
+    text-align: center;
+    font-weight: lighter;
+    font-size: x-large;
+}
