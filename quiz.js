@@ -1,20 +1,62 @@
-//grab the button
-const score= document.querySelector("#score");
-const btn= document.querySelector(".btn");
-console.log(document.querySelector(".question1"))
-function results(){
-    var c=0;
-    var q1=document.querySelector(".question1").value;
-    var q2=document.querySelector(".question2").value;
-    var q3=document.querySelector(".question3").value;
-    var q4=document.querySelector(".question4").value;
-    var q5=document.querySelector(".question5").value;
-    if (q1=="variable") {c+20}
-    if (q2=="Letters") {c+20}
-    if (q3=="None") {c+20}
-    if (q4=="Cross loop") {c+20}
-    if (q5=="Line") {c+20}
-    console.log (q1)
-    return c;
-}
-btn.addEventListener("click",()=>{score.textContent=results()})
+
+    function result()
+    {
+        var score=0;
+        var quiz1= document.quiz.quiz1.value
+        var quiz2= document.quiz.quiz2.value
+        var quiz3= document.quiz.quiz3.value
+        var quiz4= document.quiz.quiz4.value
+        var quiz5= document.quiz.quiz5.value
+        var total=document.getElementById("total")
+        if(quiz1=="variable")
+        // {
+        //     score+=20;
+        // }
+        // if(quiz2=="Letters")
+        // {
+        //     score+=20;
+        // }
+        // if(quiz3=="None")
+        // {
+        //     score+=20;
+        // }
+        // if(quiz4=="Cross loop")
+        // {
+        //     score+=20;
+        // }
+        // if(quiz5=="Line")
+        // {
+        //     score+=20;
+        // }
+        // total.textContent=score
+        // if (score<50) {
+        //     comment.textContent=("performed poorly");
+            
+        // }
+        // if (score>=50 && score<=80) {
+        //     comment.textContent=("performed fairly");
+            
+        // }
+        // if (score>80) {
+        //     comment.textContent=("performed excellently");
+            
+        // }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
