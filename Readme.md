@@ -15,4 +15,4 @@ https://github.com/danmaraba/Quiz-Board.git
  Javascript
  GITHUB
  ### License
- The project is under MIT
+ The project is under MIT -->

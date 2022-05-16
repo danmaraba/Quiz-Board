@@ -9,54 +9,36 @@
         var quiz5= document.quiz.quiz5.value
         var total=document.getElementById("total")
         if(quiz1=="variable")
-        // {
-        //     score+=20;
-        // }
-        // if(quiz2=="Letters")
-        // {
-        //     score+=20;
-        // }
-        // if(quiz3=="None")
-        // {
-        //     score+=20;
-        // }
-        // if(quiz4=="Cross loop")
-        // {
-        //     score+=20;
-        // }
-        // if(quiz5=="Line")
-        // {
-        //     score+=20;
-        // }
-        // total.textContent=score
-        // if (score<50) {
-        //     comment.textContent=("performed poorly");
+        {
+            score+=20;
+        }
+        if(quiz2=="Letters")
+        {
+            score+=20;
+        }
+        if(quiz3=="None")
+        {
+            score+=20;
+        }
+        if(quiz4=="Cross loop")
+        {
+            score+=20;
+        }
+        if(quiz5=="Line")
+        {
+            score+=20;
+        }
+        total.textContent=score
+        if (score<50) {
+            comment.textContent=("performed poorly");
             
-        // }
-        // if (score>=50 && score<=80) {
-        //     comment.textContent=("performed fairly");
+        }
+        if (score>=50 && score<=80) {
+            comment.textContent=("performed fairly");
             
-        // }
-        // if (score>80) {
-        //     comment.textContent=("performed excellently");
+        }
+        if (score>80) {
+            comment.textContent=("performed excellently");
             
-        // }
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        }
     }
