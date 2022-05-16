@@ -23,7 +23,7 @@ body{
     font-weight: lighter;
     font-size: x-large;
 }  
-/* .content_box{
+.content_box{
     display: flex;
 }
 #scoreCard{
@@ -33,4 +33,4 @@ body{
     margin-top: 50px;
     margin-left: 500px;
     padding-left: 30px;
-} */
+} 
