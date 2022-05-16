@@ -26,11 +26,11 @@ body{
 .content_box{
     display: flex;
 }
-/* #scoreCard{
+#scoreCard{
     background-color:white;
     height: 100px;
     width:400px;
     margin-top: 50px;
     margin-left: 500px;
     padding-left: 30px;
-}  */
+}
